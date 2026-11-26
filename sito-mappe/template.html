@@ -1391,7 +1391,6 @@ function renderLine() {
       }).join("")}</ul></div>`;
     }).join("")}</div>
     <p class="note">${t.corse.length} corse · ${sv.scol ? "periodo scolastico, " : ""}valido dal ${itDate(sv.dal)} al ${itDate(sv.al)}.${esclusi}
-      Entro la settimana di avvio sarà reso disponibile anche il calendario dei servizi festivi, dove previsti.
       ${activeOn(state.svc, state.day) ? "" : ` <b>Questo calendario non è attivo ${esc(itLong(state.day))}.</b>`}
       Sulla mappa la direzione scelta è a tratto pieno con le frecce del senso di marcia (P = partenza, A = arrivo), l'altra è tratteggiata.
       ${showLett ? "La lettera sotto il numero della corsa indica il percorso seguito. " : ""}Clicca un percorso per evidenziarlo e vedere solo le sue fermate, il numero di una corsa per vederla sulla mappa o metterla fra i preferiti (★), o il nome di una fermata per le sue partenze.
